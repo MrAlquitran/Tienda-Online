@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="tienda.js"></script>
+    <link rel="stylesheet" href="tienda.css">
+</head>
+<body>
+    <div id="btncontainer">
+        <button id="btn">Mostrar Productos</button>
+    </div>
+    <button id="carrito"><img src="src/3144456.png" alt="carrito"></button>
+    <div id="modalCarrito" class="modal">
+        <div class="modal-content">
+            <span class="closeCarrito">x</span>
+            <h2>Carrito de Compra</h2>
+            <div id="lista-carrito"></div>
+            <p id="total-carrito"></p>
+        </div>
+    </div>
+    <div id="categorias"></div>
+    <ul id="lista"></ul>
+
+    <div id="modal-detalle" class="modal">
+        <div class="modal-content">
+            <span class="close">x</span>
+            <h2 id="titulo-producto"></h2>
+            <p id="descripcion-producto"></p>
+            <p id="precio-producto"></p>
+            <img id="imagen-producto" src="">
+        </div>
+    </div>
+
+    <div id="notificacion" class="notificacion"></div>
+    <div id="cargar-mas-container">
+        <button id="cargarmas">Cargar más</button>
+    </div>
+</body>
+</html>
